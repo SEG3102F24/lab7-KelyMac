@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthorsService {
-  private apiUrl = 'http://localhost:8080/books-api/authors'; // 根据实际情况调整 URL
+  private apiUrl = 'http://localhost:8080/books-api/authors';
 
   constructor(private http: HttpClient) {}
 
